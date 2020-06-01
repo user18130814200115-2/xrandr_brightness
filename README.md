@@ -4,4 +4,5 @@ Change brightness with xrandr relatively to current brightness. This does not re
 ## usage
 edit displays=(HDMI-1 DP-0) to reflect your connected display(s)  
 run `brightness.sh x` where x is your modifier. This can be a value between 1 and -1.  
+`brightness.sh -0.1` will lower the brightness by 10% for example.  
 I reccomend using a program like sxhkm to brind these commands to a keybind.
